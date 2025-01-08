@@ -2,25 +2,9 @@
 
 * {
   box-sizing: border-box;
+  font-family: "Work Sans";
   margin: 0;
   padding: 0;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Work Sans";
-  height: 100vh;
-  background: linear-gradient(
-      0deg,
-      rgb(9, 9, 9) 2.884%,
-      rgba(16, 16, 16, 0) 101.034%
-    ),
-    url(assets/hero-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 /* Global CSS */
@@ -38,6 +22,7 @@ body {
   transition: background-color 0.3s ease;
   transition: color 0.3s ease;
 }
+
 .btn:hover {
   background-color: rgb(58, 136, 3);
   color: rgb(226, 220, 220);
@@ -46,11 +31,24 @@ body {
 /* Banner Part */
 
 .banner {
-  width: 1023px;
-  height: 391px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+      0deg,
+      rgb(9, 9, 9) 2.884%,
+      rgba(16, 16, 16, 0) 101.034%
+    ),
+    url(assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .banner-content {
+  width: 1023px;
+  height: 415px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,5 +78,5 @@ body {
   color: #ffffff;
   opacity: 0.6;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 70px;
 }
