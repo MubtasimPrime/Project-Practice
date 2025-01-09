@@ -263,3 +263,75 @@ main {
 .resume-cv {
   margin: 50px 0;
 }
+
+footer {
+  display: flex;
+  background-color: #fff8f3;
+  padding: 130px;
+}
+.footer-center {
+  display: flex;
+  margin: 0 auto;
+}
+
+.right-content {
+  width: 562px;
+}
+
+.right-content h1 {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.right-content p {
+  margin-bottom: 30px;
+  color: #474747;
+  font-size: 16px;
+}
+
+.link {
+  display: flex;
+  gap: 24px;
+}
+
+.left-content {
+  display: flex;
+}
+
+.right-content,
+.left-content {
+  width: 50%;
+}
+.right-content {
+  margin-right: 220px;
+}
+
+form h1 {
+  margin-bottom: 20px;
+}
+
+footer input[type="text"],
+footer input[type="email"] {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  border: none;
+  padding-left: 30px;
+  margin-bottom: 24px;
+}
+
+footer textarea {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  border: none;
+  padding-left: 30px;
+  margin-bottom: 24px;
+  padding-top: 18px;
+  font-family: inherit;
+}
