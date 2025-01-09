@@ -168,6 +168,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 130px;
 }
 
 .skills .skills-h3 {
@@ -207,4 +208,58 @@ main {
   color: #757575;
   font-size: 16px;
   line-height: 28px;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-h3 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 113px;
+}
+
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+
+.resume-col-h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.experience-h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.experience-h5 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 57px;
+}
+
+.experience-description {
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.resume hr {
+  margin-bottom: 30px;
+}
+
+.resume-cv {
+  margin: 50px 0;
 }
