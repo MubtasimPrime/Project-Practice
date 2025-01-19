@@ -359,7 +359,8 @@ footer textarea {
     margin-bottom: 50px;
   }
 
-  footer {
+  footer,
+  .about {
     padding: 20px;
   }
 
@@ -396,5 +397,9 @@ footer textarea {
 
   form {
     text-align: center;
+  }
+
+  .about-items {
+    flex-direction: column;
   }
 }
