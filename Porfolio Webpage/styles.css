@@ -402,4 +402,23 @@ footer textarea {
   .about-items {
     flex-direction: column;
   }
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner {
+    margin: 20px;
+  }
+  .header {
+    background-image: none;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav h3 {
+    margin-bottom: 30px;
+  }
 }
